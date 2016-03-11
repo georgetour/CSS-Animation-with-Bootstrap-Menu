@@ -1,0 +1,184 @@
+body {
+    background: url("../images/background_image1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+@font-face {
+    font-family:"harry";
+    src: url("../fonts/harryp.ttf");
+
+}
+
+@font-face {
+    font-family: "blade";
+    src: url("../fonts/bladrf.ttf");
+    font-size: small;
+}
+
+.signature{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    font-family: blade;
+    font-size: 7px;
+
+}
+
+.navbarExtras{
+
+   border-radius:20px;
+   border-color: #737373;
+
+
+}
+
+.buttonColor{
+
+    background-color:black;
+    color: snow ;
+}
+
+
+
+
+
+
+h1{
+    font-family: harry;
+
+
+    color: white;
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    animation-duration: 3s;
+    animation-name: h1Animation;
+
+
+
+}
+
+@media (max-width: 500px) {
+    h1{
+    font-size: 30px;
+}
+    h2{
+       font-size:  20px;
+    }
+
+}
+
+a{
+    color: white;
+}
+
+div{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.description{
+    color: white;
+    font-style: italic;
+    font-size: 13px;
+    font-family: "Times New Roman", Times, serif;
+    list-style: none;
+
+}
+
+
+
+.simpleBorder{
+
+    border:1px solid #444444;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.quests{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+     animation: fadein 8s;
+
+}
+
+.billboard{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#harry{
+    font-family: harry;
+    color: white;
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    animation: fadein 6s;
+
+}
+.fadein1{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    animation: fadein 6s;
+}
+
+.fadein2{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    animation: fadein 8s;
+}
+
+.fadein3{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    animation: fadein 9s;
+}
+
+.fadein4{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes h1Animation {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
